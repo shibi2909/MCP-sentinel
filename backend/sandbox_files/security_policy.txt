@@ -1,0 +1,6 @@
+Demo security policy
+--------------------
+1. Agents must authenticate with an API key.
+2. Tool definitions must match their approved SHA-256 hash.
+3. Bulk exports of customer data require human approval.
+4. Path traversal, command injection and SQL injection attempts are always blocked.

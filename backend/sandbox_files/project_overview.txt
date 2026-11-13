@@ -1,0 +1,5 @@
+MCP-Sentinel project overview
+=============================
+MCP-Sentinel is a security gateway placed between AI agents (MCP clients) and MCP servers.
+Every tool call is authenticated, validated, risk-scored and logged in a tamper-evident audit chain.
+This file is a harmless demo document served by the filesystem MCP server.

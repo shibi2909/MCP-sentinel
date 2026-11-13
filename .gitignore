@@ -1,0 +1,13 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime data (database, secrets, trained model are generated on first start)
+backend/data/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo

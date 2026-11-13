@@ -1,0 +1,16 @@
+# Optional containerised deployment: docker compose up --build  ->  http://localhost:8080
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - sentinel-data:/data
+    ports:
+      - "8000:8000"
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+volumes:
+  sentinel-data:
